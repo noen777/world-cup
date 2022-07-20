@@ -14,7 +14,6 @@ body{
     background-color: white;
     width: 1588px;
     margin: 140px auto;
-    border: 1px solid black;
 }
 
 
@@ -101,8 +100,7 @@ body{
     width: 1321px;
     height: 1335px;
     margin: auto;
-    border: 1px solid gray;
-
+    
 }
 .blog-bar .menu-bar {
     position: relative;
@@ -160,7 +158,6 @@ nav li :hover, .btn:hover{
 }
 
 .blogs {
-    
     border: 1px solid lightgray;
     border-radius: 10px;
 }
@@ -198,7 +195,38 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+/* footer style  */
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
+    align-items: center;
+    }
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer li {
+    list-style: none;
+    margin: 25px;
+    font-size: 16px;
+}
 
-    
+.goal {
+margin-top: 100px;
+margin-bottom: 150px;
+font-size: 30px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+.footer-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
