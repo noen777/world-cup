@@ -75,6 +75,10 @@ body{
     font-size: 20px;
     margin-top: 150px;
     margin-left: 80px;    
+    transition: width 2s;
+}
+.btn:hover {
+    width: 300px;
 }
 .fa {
     font-size: 22px;
@@ -122,7 +126,7 @@ nav li {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-nav li :hover, .btn:hover, .social li:hover {
+nav li :hover, .social li:hover {
     background-color: blue;
     border: none;
 }
