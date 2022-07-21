@@ -96,8 +96,8 @@ body{
 .blog-bar {
     /* position: relative; */
     display: flex;
-    width: 1321px;
-    height: 1335px;
+    width: 100%;
+    height: 100%;
     margin: auto;
     
 }
@@ -319,7 +319,20 @@ color: #FFFFFF;
     .blog-items {
      grid-template-columns: repeat(1, 1fr);
     }
-   
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   footer{
+    height: 100%;
+   }
+   .footer-list nav ul{
+    display: flex;
+    flex-direction: column;
+   }
 }
 
 
